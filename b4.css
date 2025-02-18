@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+body{
+    background-color: wheat;
+}
+header{
+    display: flex;
+    justify-content: right;
+}
+ul{
+    padding: 10px;
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 500;
+}
+main{
+    padding: 250px;
+    display: flex;
+}
+.conten{
+    width: 70%;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+}
+h1,p{
+    padding: 10px 0;
+}
+.img{
+    position: relative;
+}
+.img img{
+    position: relative;
+    width: 200px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.img .cricle{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    z-index: 1;
+}
