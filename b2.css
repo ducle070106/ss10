@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+body{
+    width: 100vw;
+}
+.box{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    gap: 10px;
+}
+.box div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 400px;
+}
+p:not(.back-img){
+    background-color: gainsboro;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    text-transform: uppercase;
+
+}
+.back-img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+.img-1 {
+    background-image: url(https://www.sanbongro.com.vn/sources/utils/timthumb.php?src=https://www.sanbongro.com.vn/uploads/supply/2019/04/11/luoi_bong_da_1_copy.jpg&w=480&h=480&zc=2&a=t&wm=0);
+}
+.img-2 {
+    background-image: url(https://www.swisshospital.mx/wp-content/uploads/2024/03/comprometidos-con-el-bienestar.jpg);
+}
+.img-3 {
+    background-image: url(https://img.freepik.com/premium-photo/front-view-generic-brandless-moder-car_1290286-119.jpg);
+}
+.img-4 {
+    background-image: url(https://img.freepik.com/premium-photo/red-ping-pong-racket-dark-background-sports-equipment_93675-84388.jpg);
+}
